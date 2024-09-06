@@ -23,7 +23,7 @@ struct ContentView: View {
                            center: .top,
                            startRadius: 300,
                            endRadius: 500)
-                .ignoresSafeArea()
+            .ignoresSafeArea()
             
             VStack {
                 Spacer()
