@@ -13,6 +13,7 @@ struct ContentView: View {
     @State private var score = 0
     @State private var showWrongAnswerAlert = false
     @State private var selectedFlagIndex: Int?
+    @State private var showWinAlert = false
     
     var body: some View {
         ZStack {
@@ -81,6 +82,16 @@ struct ContentView: View {
             Button("Close", role: .cancel) { }
         } message: {
             Text(String("You have selected \(countries[selectedFlagIndex ?? 0])'s flag"))
+        }
+        .alert("", isPresented: $showWinAlert) {
+            Button("Restart") {
+                score = 0
+            }
+        } message: {
+            Text("You won! Please restart the game.")
+        }
+        .onChange(of: score) { oldValue, newValue in
+            showWinAlert = newValue == 8
         }
     }
 }
