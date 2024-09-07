@@ -52,9 +52,7 @@ struct ContentView: View {
                                 showWrongAnswerAlert = true
                             }
                         } label: {
-                            Image(countries[number])
-                                .clipShape(.capsule)
-                                .shadow(radius: 10)
+                            FlagImage(flagName: countries[number])
                         }
                     }
                 }

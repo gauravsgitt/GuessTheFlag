@@ -11,6 +11,7 @@
 		4AF790DE2C8AD92900ED3E1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF790DD2C8AD92900ED3E1E /* ContentView.swift */; };
 		4AF790E02C8AD92B00ED3E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF790DF2C8AD92B00ED3E1E /* Assets.xcassets */; };
 		4AF790E32C8AD92B00ED3E1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF790E22C8AD92B00ED3E1E /* Preview Assets.xcassets */; };
+		4AF790EC2C8CC8D600ED3E1E /* FlagImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF790EB2C8CC8D600ED3E1E /* FlagImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4AF790DD2C8AD92900ED3E1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4AF790DF2C8AD92B00ED3E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AF790E22C8AD92B00ED3E1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4AF790EB2C8CC8D600ED3E1E /* FlagImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				4AF790DB2C8AD92900ED3E1E /* GuessTheFlagApp.swift */,
+				4AF790EB2C8CC8D600ED3E1E /* FlagImage.swift */,
 				4AF790DD2C8AD92900ED3E1E /* ContentView.swift */,
 				4AF790DF2C8AD92B00ED3E1E /* Assets.xcassets */,
 				4AF790E12C8AD92B00ED3E1E /* Preview Content */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AF790DE2C8AD92900ED3E1E /* ContentView.swift in Sources */,
+				4AF790EC2C8CC8D600ED3E1E /* FlagImage.swift in Sources */,
 				4AF790DC2C8AD92900ED3E1E /* GuessTheFlagApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
