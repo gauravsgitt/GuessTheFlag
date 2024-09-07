@@ -81,7 +81,7 @@ struct ContentView: View {
         .alert("Wrong!", isPresented: $showWrongAnswerAlert) {
             Button("Close", role: .cancel) { }
         } message: {
-            Text(String("You have selected \(countries[selectedFlagIndex ?? 0])'s flag"))
+            Text(String("You have selected the flag of \(countries[selectedFlagIndex ?? 0])"))
         }
         .alert("", isPresented: $showWinAlert) {
             Button("Restart") {
